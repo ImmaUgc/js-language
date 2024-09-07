@@ -1,0 +1,11 @@
+var oi = "Olá, mundo!"
+printf "%s\n" oi;
+`
+char* heap = (char*)malloc(4 * sizeof(char*));
+heap[0] = 'o';
+heap[1] = 'l';
+heap[2] = 'a';
+heap[3] = '\0';
+printf("%s\n", heap);
+free(heap);
+`
